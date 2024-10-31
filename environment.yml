@@ -1,0 +1,19 @@
+name: sciborg_env
+channels:
+  - bioasp
+  - potassco
+  - conda-forge
+dependencies:
+  - caspo
+  - python==3.8
+  - requests
+  - matplotlib
+  - jupyter
+  - networkx
+  - flask
+  - nose2
+  - SPARQLWrapper
+  - pydotplus
+  - graphviz
+  - pandas==1.4
+  - setuptools==70.0.0

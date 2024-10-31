@@ -1,0 +1,39 @@
+clingo version 5.7.1
+Reading from ...xpected_results/expression_instance.lp ...
+Solving...
+Answer: 1
+selinter("ENO1") selinter("RB1") selinter("CEBPA") selinter("RBL1") selinput("JAK3") selinput("HDAC9") selinput("DAND5") selinput("WT1") selinput("PTGDR2") selinput("EGF") selgene("ENO1") selgene("RB1") selgene("CEBPA") selgene("RBL1") selgene("JAK3") selgene("HDAC9") selgene("DAND5") selgene("WT1") selgene("PTGDR2") selgene("EGF")
+Optimization: 0
+Answer: 2
+selinter("ENO1") selinter("SNAI1") selinter("MYC") selinter("RBL1") selinput("PCBP4") selinput("JAK3") selinput("DAND5") selinput("WT1") selinput("PTGDR2") selinput("EGF") affinity("E6.13.1392","E6.1.80") selgene("ENO1") selgene("SNAI1") selgene("MYC") selgene("RBL1") selgene("PCBP4") selgene("JAK3") selgene("DAND5") selgene("WT1") selgene("PTGDR2") selgene("EGF")
+Optimization: -1
+Answer: 3
+selinter("TERT") selinter("SIRT1") selinter("CEBPA") selinter("E2F1") selinput("LCK") selinput("SPTLC3") selinput("HDAC9") selinput("SMAD3") selinput("DAND5") selinput("EGF") affinity("E6.12.1280","E5.3.55") affinity("E6.12.1484","E5.37.3237") affinity("E6.12.1483","E6.12.1287") selgene("TERT") selgene("SIRT1") selgene("CEBPA") selgene("E2F1") selgene("LCK") selgene("SPTLC3") selgene("HDAC9") selgene("SMAD3") selgene("DAND5") selgene("EGF")
+Optimization: -3
+Answer: 4
+selinter("TERT") selinter("SIRT1") selinter("CEBPA") selinter("E2F1") selinput("LCK") selinput("SPTLC3") selinput("HDAC9") selinput("SMAD3") selinput("DAND5") selinput("EGF") affinity("E6.12.1280","E5.3.55") affinity("E6.12.1484","E5.37.3237") affinity("E6.12.1277","E6.1.88") affinity("E6.12.1483","E6.12.1287") selgene("TERT") selgene("SIRT1") selgene("CEBPA") selgene("E2F1") selgene("LCK") selgene("SPTLC3") selgene("HDAC9") selgene("SMAD3") selgene("DAND5") selgene("EGF")
+Optimization: -4
+Answer: 5
+selinter("TERT") selinter("SIRT1") selinter("CEBPA") selinter("E2F1") selinput("PCBP4") selinput("LCK") selinput("SPTLC3") selinput("HDAC9") selinput("SMAD3") selinput("PTGDR2") affinity("E6.12.1280","E5.37.3234") affinity("E6.12.1484","E5.37.3237") affinity("E6.12.1271","E6.1.80") affinity("E6.12.1482","E6.12.1272") affinity("E6.12.1483","E6.12.1287") selgene("TERT") selgene("SIRT1") selgene("CEBPA") selgene("E2F1") selgene("PCBP4") selgene("LCK") selgene("SPTLC3") selgene("HDAC9") selgene("SMAD3") selgene("PTGDR2")
+Optimization: -5
+Answer: 6
+selinter("TERT") selinter("SIRT1") selinter("CEBPA") selinter("E2F1") selinput("PCBP4") selinput("LCK") selinput("SPTLC3") selinput("HDAC9") selinput("SMAD3") selinput("PTGDR2") affinity("E6.12.1280","E5.37.3234") affinity("E6.12.1484","E5.37.3237") affinity("E6.12.1271","E6.1.80") affinity("E6.12.1277","E6.1.88") affinity("E6.12.1482","E6.12.1272") affinity("E6.12.1483","E6.12.1287") selgene("TERT") selgene("SIRT1") selgene("CEBPA") selgene("E2F1") selgene("PCBP4") selgene("LCK") selgene("SPTLC3") selgene("HDAC9") selgene("SMAD3") selgene("PTGDR2")
+Optimization: -6
+Answer: 7
+selinter("TERT") selinter("SIRT1") selinter("CEBPA") selinter("E2F1") selinput("PCBP4") selinput("LCK") selinput("SPTLC3") selinput("HDAC9") selinput("SMAD3") selinput("DAND5") affinity("E6.12.1280","E5.3.55") affinity("E6.12.1484","E5.37.3237") affinity("E6.12.1271","E6.1.80") affinity("E6.11.1070","E6.1.84") affinity("E6.12.1277","E6.1.88") affinity("E6.12.1482","E6.12.1272") affinity("E6.12.1483","E6.12.1287") selgene("TERT") selgene("SIRT1") selgene("CEBPA") selgene("E2F1") selgene("PCBP4") selgene("LCK") selgene("SPTLC3") selgene("HDAC9") selgene("SMAD3") selgene("DAND5")
+Optimization: -7
+Answer: 8
+selinter("EGR1") selinter("MYB") selinter("SIRT1") selinter("RBL1") selinput("PCBP4") selinput("LCK") selinput("SPTLC3") selinput("HDAC9") selinput("SMAD3") selinput("PTGDR2") affinity("E6.13.1377","E5.37.3234") affinity("E6.13.1393","E6.1.72") affinity("E6.12.1484","E6.1.78") affinity("E6.13.1379","E6.1.88") affinity("E6.13.1392","E6.12.1275") affinity("E6.12.1271","E6.12.1276") affinity("E6.12.1277","E6.12.1286") affinity("E6.12.1486","E6.12.1288") selgene("EGR1") selgene("MYB") selgene("SIRT1") selgene("RBL1") selgene("PCBP4") selgene("LCK") selgene("SPTLC3") selgene("HDAC9") selgene("SMAD3") selgene("PTGDR2")
+Optimization: -8
+Answer: 9
+selinter("EGR1") selinter("FOS") selinter("E2F1") selinter("TCF4") selinput("HDAC2") selinput("PCBP4") selinput("E2F6") selinput("E2F4") selinput("TAF10") selinput("CREM") affinity("E6.12.1484","E5.12.1042") affinity("E6.12.1271","E5.3.55") affinity("E6.13.1377","E6.1.72") affinity("E6.13.1388","E6.1.78") affinity("E6.13.1395","E6.11.1065") affinity("E6.12.1277","E6.11.1076") affinity("E6.12.1280","E6.12.1272") affinity("E6.12.1278","E6.12.1275") affinity("E6.12.1482","E6.12.1288") selgene("EGR1") selgene("FOS") selgene("E2F1") selgene("TCF4") selgene("HDAC2") selgene("PCBP4") selgene("E2F6") selgene("E2F4") selgene("TAF10") selgene("CREM")
+Optimization: -9
+Answer: 10
+selinter("FOS") selinter("CEBPA") selinter("HNF1A") selinter("TCF4") selinput("CREB1") selinput("EGFR") selinput("FOXM1") selinput("ARNT") selinput("EGF") selinput("STK11") affinity("E6.12.1277","E5.12.1042") affinity("E6.12.1280","E5.13.1767") affinity("E6.12.1271","E5.3.55") affinity("E6.13.1391","E5.37.3237") affinity("E6.13.1383","E6.1.72") affinity("E6.13.1388","E6.1.80") affinity("E6.13.1380","E6.11.1065") affinity("E6.13.1377","E6.12.1276") affinity("E6.12.1484","E6.12.1287") affinity("E6.13.1379","E6.12.1288") selgene("FOS") selgene("CEBPA") selgene("HNF1A") selgene("TCF4") selgene("CREB1") selgene("EGFR") selgene("FOXM1") selgene("ARNT") selgene("EGF") selgene("STK11")
+Optimization: -10
+Answer: 11
+selinter("FOS") selinter("CEBPA") selinter("HNF1A") selinter("TCF4") selinput("JAK2") selinput("CREB1") selinput("EGFR") selinput("FOXM1") selinput("ARNT") selinput("EGF") affinity("E6.13.1398","E5.12.1042") affinity("E6.12.1280","E5.13.1767") affinity("E6.13.1379","E5.37.3237") affinity("E6.13.1383","E6.1.72") affinity("E6.12.1271","E6.1.78") affinity("E6.13.1388","E6.1.80") affinity("E6.13.1377","E6.1.84") affinity("E6.13.1380","E6.11.1065") affinity("E6.13.1392","E6.11.1076") affinity("E6.12.1277","E6.12.1266") affinity("E6.13.1396","E6.12.1276") selgene("FOS") selgene("CEBPA") selgene("HNF1A") selgene("TCF4") selgene("JAK2") selgene("CREB1") selgene("EGFR") selgene("FOXM1") selgene("ARNT") selgene("EGF")
+Optimization: -11
+Answer: 12
+selinter("RB1") selinter("FOS") selinter("MYC") selinter("CEBPA") selinput("JAK2") selinput("EP300") selinput("JUND") selinput("SMAD3") selinput("MYCBP") selinput("ELK1") affinity("E6.12.1278","E5.13.1767") affinity("E6.12.1280","E5.3.55") affinity("E6.12.1271","E5.37.3235") affinity("E6.13.1383","E6.1.72") affinity("E6.13.1390","E6.1.83") affinity("E6.13.1395","E6.1.84") affinity("E6.13.1400","E6.1.88") affinity("E6.11.1070","E6.11.1065") affinity("E6.13.1392","E6.12.1272") affinity("E6.12.1277","E6.12.1275") affinity("E6.13.1396","E6.12.1276") affinity("E6.13.1377","E6.12.1290") selgene("RB1") selgene("FOS") selgene("MYC") selgene("CEBPA") selgene("JAK2") selgene("EP300") selgene("JUND") selgene("SMAD3") selgene("MYCBP") selgene("ELK1")
+Optimization: -12

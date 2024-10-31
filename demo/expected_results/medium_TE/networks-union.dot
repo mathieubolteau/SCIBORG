@@ -1,0 +1,37 @@
+digraph  {
+"JUN/JUND" [color=black, fillcolor=white, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse];
+JUND [color=olivedrab3, fillcolor=olivedrab3, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse];
+C21orf33 [color=black, fillcolor=white, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse];
+EP300 [color=olivedrab3, fillcolor=olivedrab3, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse];
+GATA3 [color=lightblue, fillcolor=lightblue, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse];
+MYB [color=black, fillcolor=white, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse];
+E2F1 [color=black, fillcolor=white, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse];
+SULT2A1 [color=lightblue, fillcolor=lightblue, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse];
+"E2F1/DP" [color=black, fillcolor=white, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse];
+CD4 [color=lightblue, fillcolor=lightblue, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse];
+"gate-1" [gate=True, color=black, fillcolor=black, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse, fixedsize=True, width=0.2, height=0.2, label=.];
+"IL23/IL23R/JAK2/TYK2" [color=black, fillcolor=white, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse];
+"gate-2" [gate=True, color=black, fillcolor=black, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse, fixedsize=True, width=0.2, height=0.2, label=.];
+"gate-3" [gate=True, color=black, fillcolor=black, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse, fixedsize=True, width=0.2, height=0.2, label=.];
+JAK2 [color=olivedrab3, fillcolor=olivedrab3, style="filled, bold", fontname=Helvetica, fontsize=18, shape=ellipse];
+"JUN/JUND" -> MYB [key=0, sign=1, weight=0.3333333333333333, dir=forward, penwidth=1.6666666666666665, color=forestgreen, arrowhead=normal];
+JUND -> "JUN/JUND" [key=0, sign=1, weight=0.3333333333333333, dir=forward, penwidth=1.6666666666666665, color=forestgreen, arrowhead=normal];
+C21orf33 -> E2F1 [key=0, sign="-1", weight=0.4166666666666667, dir=forward, penwidth=2.0833333333333335, color=red, arrowhead=tee];
+C21orf33 -> CD4 [key=0, sign="-1", weight=0.3333333333333333, dir=forward, penwidth=1.6666666666666665, color=red, arrowhead=tee];
+C21orf33 -> "gate-1" [key=0, sign="-1", weight=0.08333333333333333, dir=forward, penwidth=0.41666666666666663, color=red, arrowhead=tee];
+C21orf33 -> "gate-3" [key=0, sign="-1", weight=0.16666666666666666, dir=forward, penwidth=0.8333333333333333, color=red, arrowhead=tee];
+EP300 -> C21orf33 [key=0, sign=1, weight=0.75, dir=forward, penwidth=3.75, color=forestgreen, arrowhead=normal];
+MYB -> GATA3 [key=0, sign=1, weight=0.16666666666666666, dir=forward, penwidth=0.8333333333333333, color=forestgreen, arrowhead=normal];
+MYB -> CD4 [key=0, sign="-1", weight=0.16666666666666666, dir=forward, penwidth=0.8333333333333333, color=red, arrowhead=tee];
+MYB -> "gate-2" [key=0, sign="-1", weight=0.08333333333333333, dir=forward, penwidth=0.41666666666666663, color=red, arrowhead=tee];
+MYB -> "gate-3" [key=0, sign="-1", weight=0.16666666666666666, dir=forward, penwidth=0.8333333333333333, color=red, arrowhead=tee];
+E2F1 -> MYB [key=0, sign=1, weight=0.25, dir=forward, penwidth=1.25, color=forestgreen, arrowhead=normal];
+E2F1 -> "E2F1/DP" [key=0, sign=1, weight=0.16666666666666666, dir=forward, penwidth=0.8333333333333333, color=forestgreen, arrowhead=normal];
+"E2F1/DP" -> SULT2A1 [key=0, sign=1, weight=0.16666666666666666, dir=forward, penwidth=0.8333333333333333, color=forestgreen, arrowhead=normal];
+"gate-1" -> CD4 [key=0, sign=1, weight=0.08333333333333333, dir=forward, penwidth=0.41666666666666663, color=forestgreen, arrowhead=normal];
+"IL23/IL23R/JAK2/TYK2" -> "gate-1" [key=0, sign=1, weight=0.08333333333333333, dir=forward, penwidth=0.41666666666666663, color=forestgreen, arrowhead=normal];
+"IL23/IL23R/JAK2/TYK2" -> "gate-2" [key=0, sign=1, weight=0.08333333333333333, dir=forward, penwidth=0.41666666666666663, color=forestgreen, arrowhead=normal];
+"gate-2" -> CD4 [key=0, sign=1, weight=0.08333333333333333, dir=forward, penwidth=0.41666666666666663, color=forestgreen, arrowhead=normal];
+"gate-3" -> CD4 [key=0, sign=1, weight=0.16666666666666666, dir=forward, penwidth=0.8333333333333333, color=forestgreen, arrowhead=normal];
+JAK2 -> "IL23/IL23R/JAK2/TYK2" [key=0, sign=1, weight=0.16666666666666666, dir=forward, penwidth=0.8333333333333333, color=forestgreen, arrowhead=normal];
+}

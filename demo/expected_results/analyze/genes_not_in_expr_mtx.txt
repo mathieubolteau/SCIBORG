@@ -1,0 +1,52 @@
+TAp73a (tetramer)
+GATA1
+insulin
+dNp63a (tetramer)
+Fra2
+dNp63b (tetramer)
+dNp63g (tetramer)
+E4ICDs
+TCF1E
+CtIP
+NICD
+Cbp/p300
+Cbp
+Plexin-D1
+E2/ERA
+Fog1
+p53 (tetramer)
+Erk1-2-active
+IFN-gamma
+IL2R alpha
+E2/ERA (dimer)/AIB1
+LKB1/ER alpha
+PP2A Heterotrimer
+GR alpha (dimer)
+IL2
+IL2/IL2R
+beta
+gamma
+ERA (dimer)
+AIB1
+ER alpha
+p107-p130
+TAp63g (tetramer)
+PKC isoenzymes
+Fra1
+p21SNFT
+GR alpha (monomer)
+core Mediator
+Mad
+E6AP
+NCoR
+Calcineurin A alpha-beta B1
+Type I IFN
+TCR/CD3/MHC I/CD8
+CD3
+MHC II
+IL23
+B7 family
+IL12
+IL12R
+p70S6K
+MHC I

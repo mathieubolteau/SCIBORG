@@ -1,0 +1,6 @@
+[submodule "scRNA2BoNI/caspo"]
+	path = scRNA2BoNI/caspo
+	url = git@github.com:mathieubolteau/caspo.git
+[submodule "scRNA2BoNI/pyBRAvo"]
+	path = scRNA2BoNI/pyBRAvo
+	url = git@github.com:mathieubolteau/pyBRAvo.git

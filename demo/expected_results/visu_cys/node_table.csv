@@ -1,0 +1,149 @@
+shared name	name	feature
+HIF2A/ARNT	HIF2A/ARNT	complexes
+beta catenin/TCF1/CtBP/CBP/TLE1/AES/SMAD4	beta catenin/TCF1/CtBP/CBP/TLE1/AES/SMAD4	complexes
+JAK3	JAK3	no_predecessors
+EGF/EGFR	EGF/EGFR	complexes
+E2F4/DP2/p107-p130/HDAC1	E2F4/DP2/p107-p130/HDAC1	complexes
+ATF3	ATF3	no_successors
+SMAD3/SMAD4	SMAD3/SMAD4	complexes
+JAK1	JAK1	no_predecessors
+NFX1	NFX1	no_predecessors
+SIN3A	SIN3A	no_predecessors
+TRRAP	TRRAP	no_predecessors
+RELA	RELA	no_predecessors
+IL23/IL23R/JAK2/TYK2	IL23/IL23R/JAK2/TYK2	complexes
+ATF2/JUN	ATF2/JUN	complexes
+PTGDR2	PTGDR2	no_predecessors
+EGFR	EGFR	no_predecessors
+E2/ERA (dimer)/AIB1	E2/ERA (dimer)/AIB1	no_predecessors
+MYL1	MYL1	no_successors
+WT1	WT1	no_predecessors
+TNIK	TNIK	no_predecessors
+MIM/GLI2A	MIM/GLI2A	complexes
+TERT	TERT	intermediates
+JUN/FOS	JUN/FOS	complexes
+IL2/IL2R alpha/beta/gamma/JAK1/LCK/JAK3/STAM1-2	IL2/IL2R alpha/beta/gamma/JAK1/LCK/JAK3/STAM1-2	complexes
+cortisol/GR alpha (dimer)	cortisol/GR alpha (dimer)	no_predecessors
+E2F1-3/DP	E2F1-3/DP	complexes
+MYC/Max	MYC/Max	complexes
+RBPJ/NICD/MAML1-2/p300	RBPJ/NICD/MAML1-2/p300	complexes
+SMAD3	SMAD3	no_predecessors
+NICD/YY1	NICD/YY1	complexes
+SHARP/RBPJ	SHARP/RBPJ	complexes
+TCF4	TCF4	intermediates
+HPV-16 E6/E6AP	HPV-16 E6/E6AP	no_predecessors
+E2F4/DP2/GCN5	E2F4/DP2/GCN5	complexes
+E2F1	E2F1	intermediates
+DAND5	DAND5	no_predecessors
+SIRT1	SIRT1	intermediates
+TAF12	TAF12	no_predecessors
+FOXA1	FOXA1	intermediates
+IRF1	IRF1	intermediates
+LKB1/ER alpha	LKB1/ER alpha	complexes
+MYC	MYC	intermediates
+CD4	CD4	no_successors
+MIM/GLI1	MIM/GLI1	complexes
+ARNT	ARNT	no_predecessors
+HIF1A/ARNT	HIF1A/ARNT	complexes
+AKT1	AKT1	no_predecessors
+NFX1/SIN3/HDAC	NFX1/SIN3/HDAC	complexes
+RelA/NF kappa B1	RelA/NF kappa B1	complexes
+EP300	EP300	no_predecessors
+SPTLC3	SPTLC3	no_predecessors
+LEF1/beta catenin	LEF1/beta catenin	complexes
+TCF3	TCF3	no_predecessors
+SP3/HDAC2	SP3/HDAC2	complexes
+C21orf33	C21orf33	intermediates
+PCBP4	PCBP4	no_predecessors
+E2F1/DP	E2F1/DP	complexes
+Cbp/p300	Cbp/p300	complexes
+TCF3/beta catenin/TERT/BRG1	TCF3/beta catenin/TERT/BRG1	complexes
+SUPT7L	SUPT7L	no_predecessors
+TYK2	TYK2	no_predecessors
+cortisol/GR alpha (monomer)	cortisol/GR alpha (monomer)	no_predecessors
+DVL3	DVL3	no_predecessors
+SRPRA	SRPRA	no_predecessors
+MYCBP	MYCBP	no_predecessors
+SMAD4	SMAD4	no_predecessors
+E2F6/DP	E2F6/DP	complexes
+HIF1A	HIF1A	no_predecessors
+IFN-gamma/IRF1	IFN-gamma/IRF1	complexes
+FOXA2	FOXA2	intermediates
+SULT2A1	SULT2A1	no_successors
+GLI1	GLI1	intermediates
+SKI/SIN3a/NCoR1/TIF1B/Myb	SKI/SIN3a/NCoR1/TIF1B/Myb	complexes
+ATF1	ATF1	no_predecessors
+JUN	JUN	intermediates
+SRF	SRF	intermediates
+SRF(dimer)/MAL(dimer)	SRF(dimer)/MAL(dimer)	no_predecessors
+GATA3	GATA3	no_successors
+FOXM1C/SP1	FOXM1C/SP1	complexes
+MYC/Max/TRRAP/GCN5/STAF65G/SPT3/TAF9/TAF10/TAF12/core Mediator	MYC/Max/TRRAP/GCN5/STAF65G/SPT3/TAF9/TAF10/TAF12/core Mediator	complexes
+ATF2/c-Jun	ATF2/c-Jun	complexes
+LEF1/beta catenin/PITX2	LEF1/beta catenin/PITX2	complexes
+RBPJ	RBPJ	no_predecessors
+CtBP/CBP/TCF1/TLE1/AES	CtBP/CBP/TCF1/TLE1/AES	complexes
+FOXM1	FOXM1	no_predecessors
+PARP1	PARP1	no_predecessors
+HES1/HEY1-2	HES1/HEY1-2	complexes
+EGF	EGF	no_predecessors
+EGR1	EGR1	intermediates
+LCK	LCK	no_predecessors
+YY1	YY1	no_predecessors
+HDAC1	HDAC1	no_predecessors
+SMARCA2	SMARCA2	no_predecessors
+FOS	FOS	intermediates
+STAT1 (dimer)/Cbp/p300	STAT1 (dimer)/Cbp/p300	complexes
+RBL1	RBL1	intermediates
+HDAC9	HDAC9	no_predecessors
+CREB1	CREB1	no_predecessors
+JAK2	JAK2	no_predecessors
+MTSS1	MTSS1	no_predecessors
+JUN/JUND	JUN/JUND	complexes
+CEBPA	CEBPA	intermediates
+CEBPA/BRM/RB1/E2F4	CEBPA/BRM/RB1/E2F4	complexes
+GLI3A/Cbp	GLI3A/Cbp	no_predecessors
+TAF10	TAF10	no_predecessors
+NCOR1	NCOR1	no_predecessors
+HES1/Myb	HES1/Myb	complexes
+TWIST1	TWIST1	intermediates
+MAX	MAX	no_predecessors
+FGF4	FGF4	no_successors
+RB1/E2F1-3/DP	RB1/E2F1-3/DP	complexes
+E2F6	E2F6	no_predecessors
+Smad3/MYC	Smad3/MYC	complexes
+HNF1A	HNF1A	intermediates
+JUND	JUND	no_predecessors
+TLE1	TLE1	no_predecessors
+TCF4E/beta catenin	TCF4E/beta catenin	no_predecessors
+SMARCA4	SMARCA4	no_predecessors
+ERAL1	ERAL1	no_predecessors
+EPAS1	EPAS1	no_predecessors
+SP1/HDAC2	SP1/HDAC2	complexes
+ENO1	ENO1	intermediates
+TCF4/beta catenin	TCF4/beta catenin	complexes
+KAT2A	KAT2A	no_predecessors
+ELK1	ELK1	no_predecessors
+E2F4/DP2/TRRAP	E2F4/DP2/TRRAP	complexes
+TGFB1	TGFB1	no_successors
+SNAI1	SNAI1	intermediates
+ELK1/SRF	ELK1/SRF	complexes
+SKI	SKI	no_predecessors
+AES	AES	no_predecessors
+TCF1E/beta catenin	TCF1E/beta catenin	no_predecessors
+PITX2	PITX2	intermediates
+E2F4	E2F4	no_predecessors
+HDAC2	HDAC2	no_predecessors
+MYB	MYB	intermediates
+TRIM28	TRIM28	no_predecessors
+LEF1	LEF1	intermediates
+TCF4/beta catenin/TNIK	TCF4/beta catenin/TNIK	complexes
+Mad/Max	Mad/Max	complexes
+RB1	RB1	intermediates
+STK11	STK11	no_predecessors
+CREM	CREM	no_predecessors
+PLCG1	PLCG1	no_predecessors
+RBPJ/NCoR/HDAC1	RBPJ/NCoR/HDAC1	complexes
+TCF4/beta catenin/JUN/DVL3	TCF4/beta catenin/JUN/DVL3	complexes
+E2/ERA	E2/ERA	complexes
+IL23R	IL23R	intermediates

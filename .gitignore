@@ -1,0 +1,5 @@
+build/
+sciborg.egg-info
+dev/
+dist/
+demo/results/
