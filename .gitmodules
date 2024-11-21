@@ -1,6 +1,6 @@
-[submodule "scRNA2BoNI/caspo"]
-	path = scRNA2BoNI/caspo
+[submodule "SCIBORG/caspo"]
+	path = SCIBORG/src/caspo
 	url = git@github.com:mathieubolteau/caspo.git
-[submodule "scRNA2BoNI/pyBRAvo"]
-	path = scRNA2BoNI/pyBRAvo
+[submodule "SCIBORG/pyBRAvo"]
+	path = SCIBORG/src/sciborg/pyBRAvo
 	url = git@github.com:mathieubolteau/pyBRAvo.git
