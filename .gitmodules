@@ -1,6 +1,6 @@
-[submodule "SCIBORG/src/caspo"]
-	path = SCIBORG/src/caspo
+[submodule "src/caspo"]
+	path = src/caspo
 	url = git@github.com:mathieubolteau/caspo.git
-[submodule "SCIBORG/src/sciborg/pyBRAvo"]
-	path = SCIBORG/src/sciborg/pyBRAvo
+[submodule "src/sciborg/pyBRAvo"]
+	path = src/sciborg/pyBRAvo
 	url = git@github.com:mathieubolteau/pyBRAvo.git
