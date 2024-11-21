@@ -1,6 +1,6 @@
 # SCIBORG - using Single-Cell data to Infer BOolean networks modeling Regulation of Genes
 
-SCIBORG is an infering tool of Boolean models of stages involved in a cell differentiation system using singlel-cell transcriptomic data 
+SCIBORG is an inferring tool of Boolean models of stages involved in a cell differentiation system using single-cell transcriptomic data 
 
 
 The framework searches to compute families of Boolean networks that are both compatible with scRNA-seq data and prior regulatory knowledge. It is composed of three steps:
@@ -41,7 +41,7 @@ SCIBORG only works under Python 3.8. Two submodules, included in the SCIBORG pac
     ```
 7. Verify that SCIBORG is installed
    ```sh 
-   sciborg --help` 
+   sciborg --help
    ```
 
 ## Usage
@@ -95,7 +95,7 @@ To reproduce the expected results, using the configuration file present in the `
 sciborg --pkn-construction --pseudo-perturbation-identification --pseudo-observation-diff-maxi --bn-inference ./demo/data/demo_config.ini
 ```
 
-The execution should take 3/4 minutes.
+The execution should take 3/4 minutes and produce results similar to those in `demo/expected_results` folder.
 
 ## Author
 * Mathieu Bolteau 
