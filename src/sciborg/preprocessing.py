@@ -10,6 +10,7 @@ try:
     from functools import partial
     import pkg_resources
     import clyngor
+    import numpy as np
 
 
     from .utils import  read_file, load_data, get_classes, save_to_file
@@ -20,7 +21,7 @@ except ImportError as E:
     exit()
 
 def get_extrem_expr_values(mtx: pd.DataFrame, readouts:list, cell_types_selected:list)-> float:
-    """Get the maximum value of a subset of a dataframe, where subset columns are given in entry.
+    """Get the maximum and minimum values of a subset of a dataframe, where subset columns are given in entry.
 
     Parameters
     ----------
@@ -33,8 +34,9 @@ def get_extrem_expr_values(mtx: pd.DataFrame, readouts:list, cell_types_selected
     -------
     float
         Maximum value
+    float
+        Mininum value
     """
-    # TODO : Change function description !!!
     reduced_mtx = mtx[mtx['clusterUmap'].isin(cell_types_selected)] 
     reduced_mtx = reduced_mtx[readouts]
     max_ = reduced_mtx.max(numeric_only=True).max()
@@ -50,14 +52,14 @@ def reduce_and_binarize_matrix(mtx, cell_types_selected, readouts, inputs, inter
         else:
             return 1
 
-    def normalize(x, max_expr_value, min_expr_value):
-        return (x-min_expr_value)/(max_expr_value - min_expr_value)
+    def normalize(x):
+        return (2 / np.pi) * np.arctan(x)
 
     # Maybe useles, because file containing the genes are already tested if present in matrix
     # If yes, remove all ?
     i_o_genes = list(set(mtx.columns.tolist()).intersection(set(inputs+intermediates)))
     readouts = list(set(mtx.columns.tolist()).intersection(set(readouts)))
-    max_expr_value, min_expr_value = get_extrem_expr_values(mtx, readouts, cell_types_selected)
+    # max_expr_value, min_expr_value = get_extrem_expr_values(mtx, readouts, cell_types_selected)
     
     
 
@@ -70,7 +72,7 @@ def reduce_and_binarize_matrix(mtx, cell_types_selected, readouts, inputs, inter
     bin_reduced_expr_mtx = reduced_expr_mtx.copy()
     for gene in bin_reduced_expr_mtx.columns[annotations_len:]:
         if gene in readouts:
-            bin_reduced_expr_mtx[gene] = bin_reduced_expr_mtx[gene].apply(partial(normalize,max_expr_value=max_expr_value, min_expr_value=min_expr_value))
+            bin_reduced_expr_mtx[gene] = bin_reduced_expr_mtx[gene].apply(normalize)
         elif gene in i_o_genes:
             bin_reduced_expr_mtx[gene] = bin_reduced_expr_mtx[gene].apply(binarize)
 
